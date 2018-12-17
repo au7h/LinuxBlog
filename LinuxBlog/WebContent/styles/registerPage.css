@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	background-color: #d4f3f4;
+	color: #99FFFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+
+.registerForm {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 30px;
+	border: 1px solid #c7cccc;
+	border-radius: 5px;
+	width: 700px;
+	color: black;
+	background-color: #e9eeee;
+}
+
+.tile {
+	display: inline-block;
+}
+
+.tile:first-child {
+	margin-left: 60px;
+	margin-right: 100px;
+}
+
+#tileEnd {
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+#file {
+	width: 350px;
+	font-size: 14px;
+}
+
+.registerForm p {
+	font-size: 16px; 
+	font-weight: 700; 
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+
+.registerForm input {
+	width: 230px;
+	height: 35px;
+	margin-top: 5px;
+	padding-left: 5px;
+	border: 3px solid #54eafb;
+	font-size: 22px;
+}
+
+.registerButton {
+	width: 220px;
+	height: 30px;
+	background-color: #ffffff;
+	border: 3px solid #54eafb;
+	border-radius: 5px;
+	font-size: 22px;
+	color: #000000;
+}
+
+.registerButton:hover {
+	cursor: pointer;
+	background-color: #54eafb;
+	color: #ffffff;
+}
+
+.returnButton {
+	display: block;
+	width: 219px;
+	height: 27px;
+	margin-top: 5px;
+	padding-left: 5px;
+	border: 3px solid #54eafb;
+	border-radius: 5px;
+	font-size: 22px;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+	background-color: #ffffff;
+}
+
+.returnButton:hover {
+	background-color: #54eafb;
+	color: #ffffff;
+}

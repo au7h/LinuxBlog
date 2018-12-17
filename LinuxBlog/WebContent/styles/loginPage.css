@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	background-color: #d4f3f4;
+	color: #99FFFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+
+.loginImage {
+	margin-top: 20px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.loginImage img {
+	width: 200px;
+	height: 200px;
+}
+
+.loginForm {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding: 30px;
+	border: 1px solid #c7cccc;
+	width: 240px;
+	color: black;
+	background-color: #e9eeee;
+}
+
+.loginField {
+	width: 230px;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	padding-left: 5px;
+	border: 3px solid #54eafb;
+	font-size: 22px;
+}
+
+.passField {
+	width: 230px;
+	height: 35px;
+	margin-top: 5px;
+	padding-left: 5px;
+	border: 3px solid #54eafb;
+	font-size: 22px;
+}
+
+.returnButton {
+	display: block;
+	background-color: #54eafb;
+	padding: 5px;
+	padding-top: 7px;
+	text-align: center;
+	height: 18px;
+	width: 144px;
+	margin-left: 40px;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1px;
+	border: 3px solid #54eafb;
+	border-radius: 5px;
+}
+
+.returnButton:hover {
+	background-color: #ffffff;
+	color: #54eafb
+}
+
+.submitButton {
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	width: 160px;
+	height: 35px;
+	padding: 5px;
+	text-align: center;
+	font-weight: 700;
+	background-color: #54eafb;
+	border: 3px solid #54eafb;
+	border-radius: 5px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.submitButton:hover {
+	background-color: #ffffff;
+	color: #54eafb
+}

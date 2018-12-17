@@ -1,0 +1,8 @@
+
+.icon-user:before { content: '\e800'; } /* '' */
+.icon-comment:before { content: '\e801'; } /* '' */
+.icon-pencil:before { content: '\e802'; } /* '' */
+.icon-login:before { content: '\e803'; } /* '' */
+.icon-gplus-circled:before { content: '\f059'; } /* '' */
+.icon-github-circled:before { content: '\f09b'; } /* '' */
+.icon-facebook-squared:before { content: '\f308'; } /* '' */
