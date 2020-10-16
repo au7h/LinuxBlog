@@ -20,11 +20,12 @@ import nowinski.linuxblog.dao.UserDAO;
 @WebListener
 public class DbInitialize implements ServletRequestListener {
 
-    public void requestDestroyed(ServletRequestEvent arg0)  { 
-        
+    public void requestDestroyed(ServletRequestEvent arg0)  {
+
     }
 
-    public void requestInitialized(ServletRequestEvent arg0)  { 
+    //method request
+    public void requestInitialized(ServletRequestEvent arg0)  {
          EntityManager em = DbConfig.createEntityManager();
          UserDAO userDAO = new UserDAO(em);
          RoleDAO roleDAO = new RoleDAO(em);
@@ -38,5 +39,5 @@ public class DbInitialize implements ServletRequestListener {
          req.setAttribute("commentDAO", commentDAO);
          req.setAttribute("messageDAO", messageDAO);
     }
-	
+
 }
